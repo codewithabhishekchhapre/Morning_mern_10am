@@ -1,0 +1,117 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+      }
+      body{
+          background-color: rgb(243, 243, 243);
+      }
+
+      .plan-container {
+        height: 700px;
+        width: 750px;
+        /* background-color: rgb(230, 230, 230); */
+        margin-left: 350px;
+        /* margin-top: 100px; */
+      }
+      .plan-container h1 {
+        padding-top: 50px;
+        font-size: 35px;
+      }
+      .plan-container h5 {
+        text-align: center;
+        padding-top: 13px;
+        font-size: 17px;
+        color: gray;
+      }
+      .plan-container .toggle-buttons {
+        background-color: rgb(255, 255, 255);
+        width: 200px;
+        margin-left: 290px;
+        margin-top: 30px;
+        border-radius: 25px;
+      }
+      .plan-container .toggle-buttons button {
+        padding: 10px 30px;
+        background-color: rgb(14, 71, 161);
+        color: white;
+        border: none;
+        border-radius: 25px;
+      }
+          .plan-container .plan {
+          background-color: rgb(97, 41, 207);
+          width: 300px;
+          height: 370px;
+          margin-left: 225px;
+          margin-top: 40px;
+          border-radius: 10px;
+          color: white;
+          padding: 15px;
+          }
+          .plan-container .plan button {
+               margin-left: 150px;
+               margin-top: 5px;
+               padding: 5px 15px;
+               background-color: white;
+               color: rgb(97, 41, 207);
+               border: none;
+               border-radius: 5px;
+          }
+          .plan-container .plan h1 {
+               padding-top: 5px;
+               margin-bottom: 10px;
+          }
+          .plan-container .plan h4 {
+               margin-bottom: 10px;
+          }
+          .plan-container .plan p {
+               font-size: 14px;
+               margin-bottom: 15px;
+          }
+          .plan-container .plan ol li {
+               margin-bottom: 8px;
+               list-style: none;
+          }
+          .plan-container .plan .upgrade-btn {
+               background-color: white;
+               color: rgb(97, 41, 207);
+               border: none;
+               padding: 10px 105px;
+               border-radius: 5px;
+               margin-top: 15px;
+               margin-left: 0px;
+          }
+    </style>
+  </head>
+  <body>
+    <div class="plan-container">
+      <h1 style="text-align: center;">Simple, transparent pricing</h1>
+      <h5>No contracts. No surprise fees.</h5>
+
+      <div class="toggle-buttons">
+        <button>Month</button>
+        <button style="background-color: white; color: gray">Year</button>
+      </div>
+
+      <div class="plan">
+        <button>most popular</button>
+        <h1>$120 <small style="font-size: 10px;">/ month</small></h1>
+        <h4>Pro</h4>
+        <p>For most businesses that want to otpimize web queries</p>
+        <ol>
+          <li>All limited links</li>
+          <li>Own analytics platform</li>
+          <li>Chat support</li>
+          <li>Optimize hash</li>
+        </ol>
+        <button class="upgrade-btn">Upgrade</button>
+      </div>
+    </div>
+  </body>
+</html>
