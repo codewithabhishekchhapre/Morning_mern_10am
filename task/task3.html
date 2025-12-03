@@ -1,0 +1,154 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .container {
+        width: 100%;
+        height: 100%;
+        background: #272088;
+      }
+
+      .navbar {
+        height: 90px;
+        width: 100%;
+        /* border: 2px solid white; */
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 150px;
+      }
+      .navbar .logo {
+        height: 100%;
+        width: 120px;
+        color: white;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+      .logo img {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+      }
+
+      .navbar ul {
+        display: flex;
+        color: white;
+        align-items: center;
+        gap: 25px;
+        list-style: none;
+      }
+      .navbar ul li {
+        cursor: pointer;
+      }
+      .navbar ul button {
+        padding: 10px 25px;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+        background-color: transparent;
+        color: white;
+        border: 2px solid rgb(137, 153, 207);
+        font-weight: bold;
+      }
+      .hero-section {
+        height: calc(100vh - 90px);
+        width: 100%;
+        /* border: 2px solid rgb(140, 17, 17); */
+        /* background-color: aquamarine; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+      }
+      .hero-section .hero-content {
+        height: 80%;
+        width: 40%;
+        /* border: 2px solid rgb(17, 140, 51); */
+        color: white;
+        padding: 30px;
+      }
+      .hero-section .hero-image {
+        height: 80%;
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* border: 2px solid rgb(103, 132, 203); */
+      }
+      .hero-content h5{
+            font-size: 10px;
+            text-transform: uppercase;
+            color: rgb(137, 153, 207);
+      }
+          .hero-content h1{
+               font-size: 45px;
+               margin: 20px 0px;
+               width: 80%;
+          }
+          .hero-content p{
+               font-size: 18px;
+               margin-bottom: 30px;
+               width: 90%;
+               color: rgb(200, 200, 200);
+          }
+          .hero-content button{
+               padding: 12px 30px;
+               margin-right: 20px;
+               border: none;
+               border-radius: 3px;
+               cursor: pointer;
+               font-weight: bold;
+               color: white;
+               background-color: transparent;
+
+          }
+          .hero-image img{
+               height: 450px;
+               border-radius: 15px;
+
+          }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <div class="logo">
+          <img
+            src="https://static.vecteezy.com/system/resources/previews/008/296/267/non_2x/colorful-swirl-logo-design-concept-illustration-vector.jpg"
+            alt=""
+          />
+          <h2>Biru</h2>
+        </div>
+        <ul>
+          <li>Home</li>
+          <li>About Us</li>
+          <li>Services</li>
+          <li>Contact Us</li>
+          <li>Pages</li>
+          <button>Get Started</button>
+        </ul>
+      </div>
+
+      <div class="hero-section">
+        <div class="hero-content">
+          <h5>Welcome to Biru</h5>
+          <h1>We solve business problems with technology.</h1>
+          <p>Our performance is your success . Our passion is innovation . Our Expertise is unmatched. We get you more.</p>
+          <button style="background-color: blueviolet;">Get Started</button>
+          <button style="border: 2px solid blueviolet;">View Case Study</button>
+        </div>
+        <div class="hero-image">
+          <i  mg src="https://i.pinimg.com/736x/ce/7b/93/ce7b93ca47b8326f40e72d72e69c6d80.jpg" alt="">
+           <!-- <img src="../ce7b93ca47b8326f40e72d72e69c6d80__1_-removebg-preview.png" alt=""> -->
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

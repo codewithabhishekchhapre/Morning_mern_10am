@@ -1,0 +1,125 @@
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <style>
+          *{
+               margin: 0;
+               padding: 0;
+               box-sizing: border-box;
+          }
+          body{
+               background-color: rgb(196, 196, 196);
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               gap: 25px;
+          }
+          .card{
+               width: 300px;
+               height: 400px;
+               background-color: white;
+               border-radius: 20px;
+               padding: 15px;
+          }
+          .header{
+               width: 100%;
+               height: 70px;
+               /* background-color: rgb(128, 175, 146); */
+               display: flex;
+               justify-content: space-between;
+               align-items: center;
+          }
+          .header .logo{
+               height: 50px;
+               width: 50px;
+               background-color: rgb(196, 196, 196);
+               border-radius: 50%;
+          }
+          h3{
+               margin-top: 20px;
+          }
+          h3 span{
+               color: gray;
+               font-weight: normal;
+               font-size: 10px;
+          }
+          h2{
+               margin-top: 5px;
+               font-size: 22px;
+               margin-bottom: 5px;
+          }
+          button{
+               padding: 5px 15px;
+               margin-right: 10px;
+               border: none;
+               border-radius: 5px;
+               background-color: rgb(222, 222, 222);
+               color: rgb(112, 112, 112);
+          }
+          .footer{
+               width: 100%;
+               height: 70px;
+               background-color: rgb(240, 240, 240);
+               display: flex;
+               justify-content: space-between;
+               align-items: center;
+               margin-top: 120px;
+          }
+          .footer div h3{
+               margin-left: 10px;
+               font-size: 18px;
+          }
+          .footer div p{
+               margin-left: 10px;
+               color: gray;
+               font-size: 10px;
+          }
+          .footer button{
+               margin-right: 20px;
+               background-color: rgb(26, 27, 26);
+               color: white;
+          }
+     </style>
+</head>
+<body>
+     <div class="card">
+          <div class="header">
+               <div class="logo"></div>
+               <button>Save</button>
+          </div>
+          <h3>Airbnb <span>5days ago</span></h3>
+          <h2>Junior UI/UX Designer</h2>
+          <button>Contract</button>
+          <button>Remote</button>
+
+          <div class="footer">
+               <div>
+                    <h3>$350/hr</h3>
+                    <p>Delhi,india</p>
+               </div>
+               <button>Apply Now</button>
+          </div>
+     </div>
+
+     <div class="card">
+          <div class="header">
+               <div class="logo"></div>
+               <button>Save</button>
+          </div>
+          <h3>Google <span>2days ago</span></h3>
+          <h2>Junior Developer</h2>
+          <button>Contract</button>
+          <button>Remote</button>
+
+          <div class="footer">
+               <div>
+                    <h3>$850/hr</h3>
+                    <p>indore,india</p>
+               </div>
+               <button>Apply Now</button>
+          </div>
+     </div>
+</body>
+</html>
